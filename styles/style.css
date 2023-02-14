@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+/* Style for Top Player & Top Blog Section */
+.top-section {
+    margin: 36px 285px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 33px;
+}
+
+.top-section:hover {
+    border: 3px solid #95e425;
+}
+
+.top-section hr {
+    width: 687px;
+}
+
+.top-section hr:hover {
+    border: 3px solid #95e425;
+}
+
+/* Style for Top Player Section */
+.top-player {}
+
+.top-player .top-heading {
+    margin-bottom: 33px;
+}
+
+.top-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+}
+
+.top-player .players .player img {
+    width: 56px;
+    height: 56px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 31px;
+    row-gap: 18px;
+}
+
+.player {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.player>h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
