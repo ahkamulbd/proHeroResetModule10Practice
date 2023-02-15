@@ -3,20 +3,28 @@ body {
     background: #E5E5E5;
 }
 
-/* Style for Top Player & Top Blog Section */
-.top-section {
+main {
     margin: 36px 285px;
+}
+
+/* ===========================================
+    Style for Top Player & Top Blog Section 
+=============================================*/
+
+/* Style for Top Player */
+.top-section {
     background-color: #FFFFFF;
     border-radius: 5px;
     padding: 33px;
+    margin-bottom: 30px;
 }
 
 .top-section:hover {
-    border: 3px solid #95e425;
+    border: 1px solid #95e425;
 }
 
 .top-section hr {
-    width: 687px;
+    width: 657px;
 }
 
 .top-section hr:hover {
@@ -60,4 +68,107 @@ body {
     font-size: 18px;
     line-height: 27px;
     color: #000000;
+}
+
+/* Style for Top Blog */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 16px;
+}
+
+.blog {
+    display: flex;
+    column-gap: 16px;
+}
+
+.blog-description {
+    margin-top: 0;
+}
+
+.blog img {
+    width: 137px;
+    height: 117px;
+}
+
+.blog-text {
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.author-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F;
+}
+
+.author-name a {
+    text-decoration: none;
+    color: #562EFF;
+}
+
+
+/* Style for Course Section */
+.course-container {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 23px 33px;
+}
+
+.course-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+
+.course-name {
+    width: 200px;
+}
+
+.course-image img {
+    width: 200px;
+    height: 104px;
+}
+
+.course-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-top: 20px;
+}
+
+.course-presenter {
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 17px;
+    color: #ED6B4F;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.star-icon {
+    font-size: 12px;
+}
+
+.star-icon span {
+    font-weight: 400;
+    font-size: 14.6913px;
+    line-height: 22px;
+    color: #A2A2A2;
+    margin-left: 10.71px;
 }
